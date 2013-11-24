@@ -4,6 +4,9 @@
 		Please Update the form
 	</h1>
 	<%= simple_form_for @pic do  |f| %>
+		<%= f.input :image, label: 'Upload Image Here', placeholder: 'Browse to select file'%>
+
+
 		<%= f.input :lesson, label: 'Enter your Lesson Number', placeholder: 'Lesson Number'%>
 		<%= f.input :emotion, label: 'What was your emotion', placeholder: 'example, stoked, happy, AHHHHH!!'%>
 		<%= f.input :learned, label: 'And what did you leave', placeholder: 'Give as much details as possible'%>
