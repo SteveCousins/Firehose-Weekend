@@ -7,9 +7,9 @@
 			</h1>
 
 			<h2>
-
-				<%= image_tag pic.image    %>
-
+				<%= link_to pic_path(pic) do %>
+					<%= image_tag pic.image %>
+				<% end %>
 				<br/>
 				Emmotion: <%= pic.emotion %>
 				<br/>

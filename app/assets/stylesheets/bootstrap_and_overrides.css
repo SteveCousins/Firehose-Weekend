@@ -41,3 +41,10 @@ label {
 	font-size: 18px;
 	color: white;		
 }
+
+.error {
+	font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+	font-weight: 600;
+	background: red;
+	display:block;
+}
